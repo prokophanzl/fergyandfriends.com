@@ -4,3 +4,5 @@
 	RewriteCond %{HTTP_HOST} ^www\.fergyandfriends\.com [NC]
 	RewriteRule (.*) https://fergyandfriends.com/$1 [L,R=301]
 </IfModule>
+
+Redirect 301 "/instagram" "https://instagram.com/fergyandfriends"
